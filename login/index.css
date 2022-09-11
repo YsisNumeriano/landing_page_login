@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+body {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.container{
+ width: 100vw;
+ height: 100vh;
+ background: linear-gradient(68.15deg, #8b1125 16.62%, #eebbc5 85.61%); 
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.left-image {
+    width: 40vw;
+}
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient(68.15deg, #8b1125 16.62%, #eebbc5 85.61%); 
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #8b1125;
+}
+
+.card-login > h1 {
+    color:#FFFF;
+    font-weight: 800;
+    margin: 0;
+}
+.box-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+
+
+.residencia_box, .box-input > input {
+    width: 100%;
+    border: solid 2px;    
+    padding: 10px;
+    background: (#FFFF);
+    color: #8b1125;
+    font-size: 12pt;
+    box-shadow:0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+
+
+.btnSalvar, .btnLimpar {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 7px;
+    width: 15rem;
+    height: 3rem;
+    font-size: 20px;
+    border-color: #ffff;
+    color: #8b1125;
+    transition: all .2s ease-in-out;
+    
+}
+.btnSalvar{
+    color: #E8CBC0;    
+    display: block;
+    
+    
+}
+
+.btnLimpar {
+    color: #E8CBC0;
+    cursor: pointer;
+    background:#8b1125;
+    box-shadow: 0px 10px 40px -12px #8b1125;
+    display: block;
+    
+}
+
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
